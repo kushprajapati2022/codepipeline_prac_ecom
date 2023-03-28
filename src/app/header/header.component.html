@@ -1,0 +1,97 @@
+<div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" routerLink="/">E com</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div
+      class="collapse navbar-collapse"
+      id="navbarSupportedContent"
+      [ngSwitch]="menuType"
+    >
+      <ul *ngSwitchCase="'default'" class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/seller">Seller</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/user_auth">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cart({{cartNumber}})</a>
+        </li>
+      </ul>
+
+      <ul *ngSwitchCase="'user'" class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="userLogout()">logout</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/user_auth">{{
+            userName | uppercase
+          }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/cart">Cart({{cartNumber}})</a>
+        </li>
+      </ul>
+
+      <ul *ngSwitchCase="'seller'" class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/seller">Product List</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/selleraddproduct">Add Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="logout()" routerLink="/">Logout</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: aliceblue">{{
+            sellerName | uppercase
+          }}</a>
+        </li>
+      </ul>
+    </div>
+
+    <div *ngIf="menuType == 'default' || menuType == 'user'">
+      <form class="form-inline my-2 my-lg-0">
+        <input
+          #inputsearch
+          class="form-control mr-sm-2"
+          type="text"
+          (keyup)="searchProducthere($event)"
+          (blur)="hideSearch()"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button
+          (click)="submitSearchResult(inputsearch.value)"
+          class="btn btn-outline-success my-2 my-sm-0"
+          type="submit"
+        >
+          Search
+        </button>
+        <ul class="suggestedResult" *ngIf="searchedResult">
+          <li *ngFor="let item of searchedResult">
+            <a (mousedown)="redirectDetail(item.id)">{{ item.productName }}</a>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </nav>
+</div>

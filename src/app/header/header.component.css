@@ -1,0 +1,19 @@
+.suggestedResult {
+  position: absolute !important;
+  display: list-item;
+  z-index: 10;
+  background: black;
+  width: 300px;
+  top: 40px;
+  border: 1px solid white;
+}
+
+.suggestedResult li {
+  border: 1px solid silver;
+  padding: 5px;
+}
+
+.suggestedResult li a{
+    cursor: pointer;
+    color: white;
+}
