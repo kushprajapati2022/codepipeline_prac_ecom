@@ -1,3 +1,2 @@
-# kush.prajapati
-
-IT-23354
+# code-deploy-udemy
+This repository contains all the resources used in the Udemy course.
