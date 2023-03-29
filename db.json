@@ -1,0 +1,490 @@
+{
+  "seller": [
+    {
+      "id": 1,
+      "name": "jeff",
+      "email": "jeff@gmail.com",
+      "password": "jeff123"
+    },
+    {
+      "id": 2,
+      "name": "mukesh",
+      "email": "mukesh@gmail.com",
+      "password": "mukesh123"
+    },
+    {
+      "name": "anil",
+      "email": "anil@gmail.com",
+      "password": "anil123",
+      "id": 3
+    },
+    {
+      "name": "anil",
+      "email": "pandit",
+      "password": "anil123",
+      "id": 4
+    },
+    {
+      "name": "peater",
+      "email": "pArker",
+      "password": "peater123",
+      "id": 5
+    },
+    {
+      "name": "ironman",
+      "email": "ironman@gmail.com",
+      "password": "ironman123",
+      "id": 6
+    },
+    {
+      "name": "elonn",
+      "email": "elon@gmail.com",
+      "password": "elon123",
+      "id": 7
+    },
+    {
+      "name": "alia",
+      "email": "alia@gmail.com",
+      "password": "alia123",
+      "id": 8
+    },
+    {
+      "name": "natasha",
+      "email": "natasha@gmail.com",
+      "password": "natasha123",
+      "id": 9
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "iPhone 9",
+      "productDescription": "An apple mobile which is nothing like apple",
+      "productPrice": 549,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones",
+      "productImage": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+    },
+    {
+      "id": 2,
+      "productName": "iPhone X",
+      "productDescription": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "productPrice": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.44,
+      "stock": 34,
+      "brand": "Apple",
+      "category": "smartphones",
+      "productImage": "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+    },
+    {
+      "id": 3,
+      "productName": "Samsung Universe 9",
+      "productDescription": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "productPrice": 1249,
+      "discountPercentage": 15.46,
+      "rating": 4.09,
+      "stock": 36,
+      "brand": "Samsung",
+      "category": "smartphones",
+      "productImage": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/3/1.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "productName": "OPPOF19",
+      "productDescription": "OPPO F19 is officially announced on April 2021.",
+      "productPrice": 280,
+      "discountPercentage": 17.91,
+      "rating": 4.3,
+      "stock": 123,
+      "brand": "OPPO",
+      "category": "smartphones",
+      "productImage": "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+    },
+    {
+      "id": 5,
+      "productName": "Huawei P30",
+      "productDescription": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+      "productPrice": 499,
+      "discountPercentage": 10.58,
+      "rating": 4.09,
+      "stock": 32,
+      "brand": "Huawei",
+      "category": "smartphones",
+      "productImage": "https://i.dummyjson.com/data/products/5/thumbnail.jpg"
+    },
+    {
+      "id": 6,
+      "productName": "MacBook Pro",
+      "productDescription": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "productPrice": 1749,
+      "discountPercentage": 11.02,
+      "rating": 4.57,
+      "stock": 83,
+      "brand": "APPle",
+      "category": "laptops",
+      "productImage": "https://i.dummyjson.com/data/products/6/thumbnail.png"
+    },
+    {
+      "id": 7,
+      "productName": "Samsung Galaxy Book",
+      "productDescription": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "productPrice": 1499,
+      "discountPercentage": 4.15,
+      "rating": 4.25,
+      "stock": 50,
+      "brand": "Samsung",
+      "category": "laptops",
+      "productImage": "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+    },
+    {
+      "id": 8,
+      "productName": "Microsoft Surface Laptop 4",
+      "productDescription": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+      "productPrice": 1499,
+      "discountPercentage": 10.23,
+      "rating": 4.43,
+      "stock": 68,
+      "brand": "Microsoft Surface",
+      "category": "laptops",
+      "productImage": "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+    },
+    {
+      "id": 9,
+      "productName": "Infinix INBOOK",
+      "productDescription": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+      "productPrice": 1099,
+      "discountPercentage": 11.83,
+      "rating": 4.54,
+      "stock": 96,
+      "brand": "Infinix",
+      "category": "laptops",
+      "productImage": "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+    },
+    {
+      "id": 10,
+      "productName": "HP Pavilion 15-DK1056WM",
+      "productDescription": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+      "productPrice": 1099,
+      "discountPercentage": 6.18,
+      "rating": 4.43,
+      "stock": 89,
+      "brand": "HP Pavilion",
+      "category": "laptops",
+      "productImage": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
+    },
+    {
+      "id": 11,
+      "productName": "perfume Oil",
+      "productDescription": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
+      "productPrice": 13,
+      "discountPercentage": 8.4,
+      "rating": 4.26,
+      "stock": 65,
+      "brand": "Impression of Acqua Di Gio",
+      "category": "fragrances",
+      "productImage": "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+    },
+    {
+      "id": 12,
+      "productName": "Brown Perfume",
+      "productDescription": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
+      "productPrice": 40,
+      "discountPercentage": 15.66,
+      "rating": 4,
+      "stock": 52,
+      "brand": "Royal_Mirage",
+      "category": "fragrances",
+      "productImage": "https://i.dummyjson.com/data/products/12/thumbnail.jpg"
+    },
+    {
+      "id": 13,
+      "productName": "Fog Scent Xpressio Perfume",
+      "productDescription": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+      "productPrice": 13,
+      "discountPercentage": 8.14,
+      "rating": 4.59,
+      "stock": 61,
+      "brand": "Fog Scent Xpressio",
+      "category": "fragrances",
+      "productImage": "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+    },
+    {
+      "id": 14,
+      "productName": "Non-Alcoholic Concentrated Perfume Oil",
+      "productDescription": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
+      "productPrice": 120,
+      "discountPercentage": 15.6,
+      "rating": 4.21,
+      "stock": 114,
+      "brand": "Al Munakh",
+      "category": "fragrances",
+      "productImage": "https://i.dummyjson.com/data/products/14/thumbnail.jpg"
+    },
+    {
+      "id": 15,
+      "productName": "Eau De Perfume Spray",
+      "productDescription": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
+      "productPrice": 30,
+      "discountPercentage": 10.99,
+      "rating": 4.7,
+      "stock": 105,
+      "brand": "Lord - Al-Rehab",
+      "category": "fragrances",
+      "productImage": "https://i.dummyjson.com/data/products/15/thumbnail.jpg"
+    },
+    {
+      "id": 16,
+      "productName": "Hyaluronic Acid Serum",
+      "productDescription": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
+      "productPrice": 19,
+      "discountPercentage": 13.31,
+      "rating": 4.83,
+      "stock": 110,
+      "brand": "L'Oreal Paris",
+      "category": "skincare",
+      "productImage": "https://i.dummyjson.com/data/products/16/thumbnail.jpg"
+    },
+    {
+      "id": 17,
+      "productName": "Tree Oil 30ml",
+      "productDescription": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
+      "productPrice": 12,
+      "discountPercentage": 4.09,
+      "rating": 4.52,
+      "stock": 78,
+      "brand": "Hemani Tea",
+      "category": "skincare",
+      "productImage": "https://i.dummyjson.com/data/products/17/thumbnail.jpg"
+    },
+    {
+      "id": 18,
+      "productName": "Oil Free Moisturizer 100ml",
+      "productDescription": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
+      "productPrice": 40,
+      "discountPercentage": 13.1,
+      "rating": 4.56,
+      "stock": 88,
+      "brand": "Dermive",
+      "category": "skincare",
+      "productImage": "https://i.dummyjson.com/data/products/18/thumbnail.jpg"
+    },
+    {
+      "id": 19,
+      "productName": "Skin Beauty Serum.",
+      "productDescription": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
+      "productPrice": 46,
+      "discountPercentage": 10.68,
+      "rating": 4.42,
+      "stock": 54,
+      "brand": "ROREC White Rice",
+      "category": "skincare",
+      "productImage": "https://i.dummyjson.com/data/products/19/thumbnail.jpg"
+    },
+    {
+      "id": 20,
+      "productName": "Freckle Treatment Cream- 15gm",
+      "productDescription": "Fair & Clear is only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
+      "productPrice": 70,
+      "discountPercentage": 16.99,
+      "rating": 4.06,
+      "stock": 140,
+      "brand": "Fair & Clear",
+      "category": "skincare",
+      "productImage": "https://i.dummyjson.com/data/products/20/thumbnail.jpg"
+    },
+    {
+      "id": 21,
+      "productName": "- Daal Masoor 500 grams",
+      "productDescription": "Fine quality Branded Product Keep in a cool and dry place",
+      "productPrice": 20,
+      "discountPercentage": 4.81,
+      "rating": 4.44,
+      "stock": 133,
+      "brand": "Saaf & Khaas",
+      "category": "groceries",
+      "productImage": "https://i.dummyjson.com/data/products/21/thumbnail.png"
+    },
+    {
+      "id": 22,
+      "productName": "Elbow Macaroni - 400 gm",
+      "productDescription": "Product details of Bake Parlor Big Elbow Macaroni - 400 gm",
+      "productPrice": 14,
+      "discountPercentage": 15.58,
+      "rating": 4.57,
+      "stock": 146,
+      "brand": "Bake Parlor Big",
+      "category": "groceries",
+      "productImage": "https://i.dummyjson.com/data/products/22/thumbnail.jpg"
+    },
+    {
+      "id": 23,
+      "productName": "Orange Essence Food Flavou",
+      "productDescription": "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
+      "productPrice": 14,
+      "discountPercentage": 8.04,
+      "rating": 4.85,
+      "stock": 26,
+      "brand": "Baking Food Items",
+      "category": "groceries",
+      "productImage": "https://i.dummyjson.com/data/products/23/thumbnail.jpg"
+    },
+    {
+      "id": 24,
+      "productName": "cereals muesli fruit nuts",
+      "productDescription": "original fauji cereal muesli 250gm box pack original fauji cereals muesli fruit nuts flakes breakfast cereal break fast faujicereals cerels cerel foji fouji",
+      "productPrice": 46,
+      "discountPercentage": 16.8,
+      "rating": 4.94,
+      "stock": 113,
+      "brand": "fauji",
+      "category": "groceries",
+      "productImage": "https://i.dummyjson.com/data/products/24/thumbnail.jpg"
+    },
+    {
+      "id": 25,
+      "productName": "Gulab Powder 50 Gram",
+      "productDescription": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
+      "productPrice": 70,
+      "discountPercentage": 13.58,
+      "rating": 4.87,
+      "stock": 47,
+      "brand": "Dry Rose",
+      "category": "groceries",
+      "productImage": "https://i.dummyjson.com/data/products/25/thumbnail.jpg"
+    },
+    {
+      "id": 26,
+      "productName": "Plant Hanger For Home",
+      "productDescription": "Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf",
+      "productPrice": 41,
+      "discountPercentage": 17.86,
+      "rating": 4.08,
+      "stock": 131,
+      "brand": "Boho Decor",
+      "category": "home-decoration",
+      "productImage": "https://i.dummyjson.com/data/products/26/thumbnail.jpg"
+    },
+    {
+      "id": 27,
+      "productName": "Flying Wooden Bird",
+      "productDescription": "Package Include 6 Birds with Adhesive Tape Shape: 3D Shaped Wooden Birds Material: Wooden MDF, Laminated 3.5mm",
+      "productPrice": 51,
+      "discountPercentage": 15.58,
+      "rating": 4.41,
+      "stock": 17,
+      "brand": "Flying Wooden",
+      "category": "home-decoration",
+      "productImage": "https://i.dummyjson.com/data/products/27/thumbnail.webp"
+    },
+    {
+      "id": 28,
+      "productName": "3D Embellishment Art Lamp",
+      "productDescription": "3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)",
+      "productPrice": 20,
+      "discountPercentage": 16.49,
+      "rating": 4.82,
+      "stock": 54,
+      "brand": "LED Lights",
+      "category": "home-decoration",
+      "productImage": "https://i.dummyjson.com/data/products/28/thumbnail.jpg"
+    },
+    {
+      "id": 29,
+      "productName": "Handcraft Chinese style",
+      "productDescription": "Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate",
+      "productPrice": 60,
+      "discountPercentage": 15.34,
+      "rating": 4.44,
+      "stock": 7,
+      "brand": "luxury palace",
+      "category": "home-decoration",
+      "productImage": "https://i.dummyjson.com/data/products/29/thumbnail.webp"
+    },
+    {
+      "id": 30,
+      "productName": "Key Holder",
+      "productDescription": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+      "productPrice": 30,
+      "discountPercentage": 2.92,
+      "rating": 4.92,
+      "stock": 54,
+      "brand": "Golden",
+      "category": "home-decoration",
+      "productImage": "https://i.dummyjson.com/data/products/30/thumbnail.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "kush",
+      "email": "kush@gmail.com",
+      "password": "kush123"
+    },
+    {
+      "name": "luv",
+      "email": "luv@gmail.com",
+      "password": "vt123",
+      "id": 2
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "name": "pratik",
+      "email": "pratik@gmail.com",
+      "password": "pratik123",
+      "id": 4
+    },
+    {
+      "name": "prapti",
+      "email": "prapti@gmail.com",
+      "password": "prapti",
+      "id": 5
+    },
+    {
+      "name": "priya",
+      "email": "priya@gmail.com",
+      "password": "priya123",
+      "id": 6
+    },
+    {
+      "name": "fredy",
+      "email": "fredy@gmail.com",
+      "password": "fredy123",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "kush.prajapati",
+      "password": "Kush@2022",
+      "id": 8
+    }
+  ],
+  "cart": [
+    {
+      "productName": "iPhone 9",
+      "productDescription": "An apple mobile which is nothing like apple",
+      "productPrice": 549,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones",
+      "productImage": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+      "productQuantity": 4,
+      "userId": 2,
+      "productId": 1,
+      "id": 1
+    }
+  ]
+}
